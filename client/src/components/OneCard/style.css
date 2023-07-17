@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 34px;
+}
+
+.humidityPng {
+  width: 20px;
+}
+
+.text-center {
+  display: flex;
+  align-items: center;
+}
