@@ -12,12 +12,7 @@ export default function TransitionsModal(): JSX.Element {
   const windDirections = appStore((store: AppStore) => store.windDirections);
   const modalContent = appStore((store: AppStore) => store.modalContent);
   
-  // const handleClose = () => { 
-  //   open={modalState} onCancel={setModalState}
-  //   // if (isOpen===true){ setIsOpen(false)} else { setIsOpen(true); }
-  //   // setIsOpen(isOpen => isOpen ? false : true);
-  // };
-  
+ 
   return (
     <Modal 
       open={modalState} 
